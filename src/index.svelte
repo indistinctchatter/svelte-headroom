@@ -5,7 +5,6 @@
   export let duration = "300ms";
   export let offset = 0;
   export let tolerance = 0;
-//  export let zIndex = 9999;
 
   let headerClass = "";
   let lastHeaderClass = "";
@@ -32,7 +31,6 @@
 
   function action(node) {
     node.style.transitionDuration = duration;
-  //  node.style.zIndex = zIndex;
   }
 
   $: {
