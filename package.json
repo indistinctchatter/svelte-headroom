@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/collardeau/svelte-headroom.git"
+    "url": "git+https://github.com/indistinctchatter/svelte-headroom.git"
   },
   "bugs": {
     "url": "https://github.com/collardeau/svelte-headroom/issues"
