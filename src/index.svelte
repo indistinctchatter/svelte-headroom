@@ -5,7 +5,7 @@
   export let duration = "300ms";
   export let offset = 0;
   export let tolerance = 0;
-  export let zIndex = 9999;
+//  export let zIndex = 9999;
 
   let headerClass = "";
   let lastHeaderClass = "";
@@ -32,7 +32,7 @@
 
   function action(node) {
     node.style.transitionDuration = duration;
-    node.style.zIndex = zIndex;
+  //  node.style.zIndex = zIndex;
   }
 
   $: {
@@ -47,6 +47,7 @@
 
 <style>
   div {
+    z-index: 9999;
     position: fixed;
     width: 100%;
     top: 0;
